@@ -127,10 +127,6 @@ for data_index in range(0, np_bank.shape[0]):
 
 """Run ANN"""
 
-weight_df = pd.DataFrame(weights)
-weight_df['cr'] = cr
-weight_df.to_csv('weight.csv', index=False)
-
 """Define Inputs and Outputs"""
 
 X_train, X_test, Y_train, Y_test = train_test_split(weights[:, :10], weights[:, 10:], test_size=0.3, random_state=42)
