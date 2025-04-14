@@ -18,7 +18,7 @@ To replicate the analysis and execute the code, please follow the steps outlined
    pip install -r requirements.txt
    ```
 
-4. **Program Execution**: Run the primary analysis script by executing:
+4. **Program Execution**: Run the primary analysis script by executing:
 
    ```bash
    python caha.py
